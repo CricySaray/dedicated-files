@@ -6,6 +6,7 @@ WPS同步空间/
 QQ_files/
 Pr_files/
 VitisWorkspace/
+atom_files/
 
 ###################
 #   Vivado files ignore
@@ -16,6 +17,5 @@ VitisWorkspace/
 #vivado_files/**/**/*.sim
 #vivado_files/**/**/*.xpr
 vivado_files/*
-!*.v
-!*.digitaljs
-atom_files/
+!vivado_files/**/*.v
+!vivado_files/**/*.digitaljs
