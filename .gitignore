@@ -5,3 +5,17 @@ GitHub/
 WPS同步空间/
 QQ_files/
 Pr_files/
+VitisWorkspace/
+
+###################
+#   Vivado files ignore
+###################
+#vivado_files/**/**/*.cache
+#vivado_files/**/**/*.hw
+#vivado_files/**/**/*.ip_user_files
+#vivado_files/**/**/*.sim
+#vivado_files/**/**/*.xpr
+vivado_files/*
+!*.v
+!*.digitaljs
+atom_files/
