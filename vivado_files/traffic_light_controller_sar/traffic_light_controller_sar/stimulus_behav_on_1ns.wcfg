@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="stimulus_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="stimulus" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="594001fs"></ZoomEndTime>
+      <Cursor1Time time="5000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/stimulus/MAIN_SIG" type="array">
+      <obj_property name="ElementShortName">MAIN_SIG[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MAIN_SIG[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/stimulus/CNTRY_SIG" type="array">
+      <obj_property name="ElementShortName">CNTRY_SIG[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CNTRY_SIG[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/stimulus/CAR_ON_CNTRY_RD" type="logic">
+      <obj_property name="ElementShortName">CAR_ON_CNTRY_RD</obj_property>
+      <obj_property name="ObjectShortName">CAR_ON_CNTRY_RD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/stimulus/CLOCK" type="logic">
+      <obj_property name="ElementShortName">CLOCK</obj_property>
+      <obj_property name="ObjectShortName">CLOCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/stimulus/CLEAR" type="logic">
+      <obj_property name="ElementShortName">CLEAR</obj_property>
+      <obj_property name="ObjectShortName">CLEAR</obj_property>
+   </wvobject>
+</wave_config>
