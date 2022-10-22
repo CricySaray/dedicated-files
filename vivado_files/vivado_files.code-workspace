@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "posedge_detect_sar"
+		},
+		{
+			"path": "count60_sar"
+		}
+	],
+	"settings": {}
+}

@@ -7,9 +7,6 @@ vivado_files/**/**/*.hw
 vivado_files/**/**/*.ip_user_files
 vivado_files/**/**/*.sim
 vivado_files/**/**/*.xpr
-#!vivado_files/**/*.v
-#!vivado_files/**/*.digitaljs
-#vivado_files/**/
 
 
 BaiduNetdiskDownload/
