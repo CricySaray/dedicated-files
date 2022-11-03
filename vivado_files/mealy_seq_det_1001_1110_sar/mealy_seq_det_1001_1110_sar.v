@@ -36,7 +36,7 @@ module mealy_seq_det_1001_1110_sar (
             default: next_state = S0;
             endcase
         end
-        always @(in, current_state) begin
+        always @(current_state) begin
             case(current_state)
             S0: out = 4'b0000;
             S1: out = 4'b0000;
@@ -45,8 +45,10 @@ module mealy_seq_det_1001_1110_sar (
             S4: out = 4'b1001;
             S5: out = 4'b1001;
             S6: out = 4'b1001;
-            S7: out = (in == 1'b0) ? 4'b1110: 1'b0000;
+            S7: out = (in == 1'b0) ? 4'b1110: 1'b1001;
+            // S7: out = 4'b1110;
             default: out = 4'b0000;
             endcase
+        $monitor("in = %b, out = %b", in, out);
         end
 endmodule
