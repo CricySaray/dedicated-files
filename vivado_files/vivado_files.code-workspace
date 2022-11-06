@@ -68,6 +68,9 @@
 		},
 		{
 			"path": "traffic_light_controller_sar"
+		},
+		{
+			"path": "automatic_sale_of_beverage_machine_sar"
 		}
 	],
 	"settings": {}
