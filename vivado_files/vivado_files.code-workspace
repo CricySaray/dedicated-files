@@ -71,6 +71,12 @@
 		},
 		{
 			"path": "automatic_sale_of_beverage_machine_sar"
+		},
+		{
+			"path": "T_FF_sar"
+		},
+		{
+			"path": "digital_clock_counter_sar"
 		}
 	],
 	"settings": {}
