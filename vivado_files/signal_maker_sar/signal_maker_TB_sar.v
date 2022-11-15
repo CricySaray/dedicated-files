@@ -1,3 +1,4 @@
+`timescale 1ps/1ps
 module stimulus;
     reg clk;
     reg rst_n;
