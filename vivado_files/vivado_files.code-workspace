@@ -77,6 +77,18 @@
 		},
 		{
 			"path": "digital_clock_counter_sar"
+		},
+		{
+			"path": "universal_shift_sar"
+		},
+		{
+			"path": "signal_maker_sar"
+		},
+		{
+			"path": "frequency_divider_even_sar"
+		},
+		{
+			"path": "frequency_divider_odd_sar"
 		}
 	],
 	"settings": {}
