@@ -89,6 +89,15 @@
 		},
 		{
 			"path": "frequency_divider_odd_sar"
+		},
+		{
+			"path": "reversible_counter_sar"
+		},
+		{
+			"path": "digital_frequency_meter_sar"
+		},
+		{
+			"path": "digital_frequency_meter_other"
 		}
 	],
 	"settings": {}
