@@ -98,6 +98,12 @@
 		},
 		{
 			"path": "digital_frequency_meter_other"
+		},
+		{
+			"path": "sequence_detect_11011_sar"
+		},
+		{
+			"path": "sequence_detect_11011_v_sar"
 		}
 	],
 	"settings": {}
