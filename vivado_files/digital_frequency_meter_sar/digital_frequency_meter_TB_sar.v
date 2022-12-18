@@ -1,6 +1,7 @@
 `timescale 1ns/1ps
 
 module digital_frequency_meter_sar_stimulus;
+    //为了仿真方便，全部缩小数倍；
     parameter CLK1HZ_DELAY = 5_0000_0000;       //1 Hz signal
     parameter FIN_DELAY = 100;                  //5 MHz frequency detected
     reg clk_1Hz;

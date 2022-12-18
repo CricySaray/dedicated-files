@@ -22,7 +22,7 @@ module latch(
 
 );
     always @(posedge clk_1Hz, negedge rst_n) begin
-        if (!rst_n) begin 
+        if (!rst_n) begin //复位信号有效时输出清零  
             d0 <= 4'b0;
             d1 <= 4'b0;
             d2 <= 4'b0;
@@ -33,7 +33,7 @@ module latch(
             d7 <= 4'b0;
             
         end
-        else if (latch_en) begin 
+        else if (latch_en) begin //锁存信号有效时，将计数器的输出信号锁存至锁存器  
             d0 <= q0;
             d1 <= q1;
             d2 <= q2;
@@ -43,7 +43,7 @@ module latch(
             d6 <= q6;
             d7 <= q7;
         end
-        else begin
+        else begin //上面两种情况均未发生时，输入不变  
             d0 <= d0;
             d1 <= d1;
             d2 <= d2;

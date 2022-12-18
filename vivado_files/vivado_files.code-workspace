@@ -104,6 +104,9 @@
 		},
 		{
 			"path": "sequence_detect_11011_v_sar"
+		},
+		{
+			"path": "UART"
 		}
 	],
 	"settings": {}
